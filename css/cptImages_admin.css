@@ -1,0 +1,57 @@
+/*  
+Custom Post Type Images
+Attach images to custom post type archive pages and singles.
+Copyright 2011  Yonatan Reinberg (email : yoni [a t ] s o cia l-ink DOT net) - http://social-ink.net
+
+Backend styles
+*/
+
+
+#wpcontent select{width:27.5em;}
+
+#ptImages .ptImage_uploadBox {
+    border-top: 1px dotted #330707;
+    display: none;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+#ptImages .imageUploadSection {
+	width:300px;
+
+}
+
+#ptImages .section {
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+border: 1px solid #DFDFDF;
+border-radius: 8px 8px 8px 8px;
+margin-top: 20px;
+padding: 15px;
+width: 700px;
+}
+
+#ptImages .expandSection {
+	display:block !important;
+}
+
+#ptImages .imageUploadSection img {
+	-webkit-box-shadow: 1px 1px 4px 2px #CCCCCC;
+	-moz-box-shadow:1px 1px 4px 2px #CCCCCC;	
+	box-shadow:1px 1px 4px 2px #CCCCCC;	
+			
+	max-width:250px;
+	height:auto;
+	border: 4px solid white;
+
+}
+
+#ptImages .labelSection {
+	width:100px;
+}
+
+#ptImages .imagetable {
+    width: 700px;
+}
